@@ -1,0 +1,44 @@
+body {
+    background-color: teal;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: #fff;
+    margin: auto;
+}
+
+.card-body {
+    font-size: 1.5em;
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: 400;
+}
+
+.fa-envelope-square {
+    font-size: 2em;
+}
+
+.fa-facebook-square {
+    font-size: 2em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+@media only screen and (max-width: 331px) {
+    #new-quote {
+        margin-right: 85px;
+    }
+}
